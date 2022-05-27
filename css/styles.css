@@ -1,0 +1,152 @@
+h1 {  
+    font-family: 'Courgette', cursive;
+     font-size: 4.5rem;  
+     line-height: 1.5;  
+     font-weight: 900;
+     font-style: italic;
+
+    }
+h2{
+        font-family: 'Courgette', cursive;
+        font-size:3.5rem; 
+        color: rgb(0, 0, 0);
+        line-height: 3.5rem;
+        font-weight:bold;
+     }
+ h3{
+        font-family: 'Courgette', cursive;
+        font-size:1.5rem;
+    }
+.container-fluid {
+        padding:2% 15%;
+    }
+ #title { 
+        background-color:#ff4d6d;
+        font-family: 'Courgette', cursive;
+        color: #fff; 
+    }
+    
+    
+/* Navigation-Bar */
+.navbar{
+    padding:0 0 4.5rem 0;
+}
+.navbar-brand{
+    font-size:2.5rem;
+    font-weight:bold;
+    }
+.nav-item{
+    padding:0 20px;
+} 
+.nav-link{
+    font-family: 'Courgette', cursive;
+
+}
+
+p{
+    font-family: sans-serif;
+    color:#8f8f8f;
+
+}
+
+/* Buttons */
+.download-button{
+    margin:5% 3% 5% 0%;
+}
+
+/* titleimage */
+.title-image{
+    width:20%;
+    position:absolute;
+    transform: rotate(25deg);
+    right: 20%;
+
+}
+@media(max-width:1035px){
+    .title-image{
+        position:static;
+        width:40%;
+        transform: rotate(0);
+
+    }
+    #title{
+        text-align:center;
+    }
+
+}
+/* features */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    
+}
+.features-item{
+    color:#980000;
+   size:1.5rem;
+   margin-bottom:20px;
+}
+.features-item:hover{
+    color:#eb1d1d;
+}
+.features-list{
+    text-align:center;
+    padding: 2%;
+}
+/* Testimonials */
+
+#testimonials{
+    
+    text-align:center;
+    background-color:#ff4d6d;
+}
+.testimonials-img{
+    width:10%;
+    border-radius:100%;
+    margin:3rem 2rem;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+
+/* Press */
+#press{
+    background-color: #ff4d6d;
+    text-align:center;
+    padding:2.5%;
+    
+}
+.press-img{
+    width:15%;
+    margin:20px 20px 50px;
+}
+/* Pricing */
+#pricing{
+    padding:5% 10%;
+    text-align:center;
+}
+.pricingcol{
+    padding:3%;
+}
+/* Call to action */
+#cta{
+    text-align:center;
+    padding:10%;
+    background-color:#ff4d6d;
+    line-height:5px;
+    
+}
+/* Footer */
+#foot{
+    text-align:center;
+}
+.foot{
+    
+    color:rgb(13, 12, 12);
+
+}
+.footericon{
+    
+    color:#000;
+    margin:20px 10px;
+}
