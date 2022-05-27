@@ -48,6 +48,14 @@ p{
     color:#8f8f8f;
 
 }
+a.apple{
+    text-decoration: none !important;
+    color:white;
+}
+a.android{
+    text-decoration: none !important;
+    color:black;
+}
 
 /* Buttons */
 .download-button{
